@@ -1,0 +1,57 @@
+package com.quantum.CampusBridgeApplication.service;
+
+import com.quantum.CampusBridgeApplication.dto.AuthRequest;
+import com.quantum.CampusBridgeApplication.dto.AuthResponse;
+import com.quantum.CampusBridgeApplication.model.Role;
+import com.quantum.CampusBridgeApplication.model.User;
+import com.quantum.CampusBridgeApplication.repository.UserRepository;
+import com.quantum.CampusBridgeApplication.security.JwtUtil;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.Optional;
+
+@Service
+public class AuthService {
+
+    @Autowired
+    private UserRepository userRepository;
+
+    @Autowired
+    private JwtUtil jwtUtil;
+
+    // REGISTER
+    public AuthResponse register(String name, String email, String password, String roleStr) {
+        if (userRepository.existsByEmail(email)) {
+            throw new RuntimeException("Email already registered");
+        }
+
+        Role role = Role.valueOf(roleStr.toUpperCase());
+        User user = new User(name, email, password, role);
+        userRepository.save(user);
+
+        String token = jwtUtil.generateToken(user);
+
+        return new AuthResponse(token, user.getEmail(), user.getName(), user.getRole().name());
+    }
+
+    // LOGIN
+    public AuthResponse login(AuthRequest authRequest) {
+        Optional<User> userOpt = userRepository.findByEmail(authRequest.getEmail());
+
+        if (userOpt.isEmpty()) {
+            throw new RuntimeException("Invalid email or password");
+        }
+
+        User user = userOpt.get();
+
+        // Plain password check (for quick demo only)
+        if (!user.getPassword().equals(authRequest.getPassword())) {
+            throw new RuntimeException("Invalid email or password");
+        }
+
+        String token = jwtUtil.generateToken(user);
+
+        return new AuthResponse(token, user.getEmail(), user.getName(), user.getRole().name());
+    }
+}

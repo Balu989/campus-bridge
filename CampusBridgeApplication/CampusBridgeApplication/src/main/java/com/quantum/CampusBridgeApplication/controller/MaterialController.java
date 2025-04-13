@@ -1,0 +1,28 @@
+package com.quantum.CampusBridgeApplication.controller;
+
+import com.quantum.CampusBridgeApplication.model.Material;
+import com.quantum.CampusBridgeApplication.service.MaterialService;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+
+@RestController
+@RequestMapping("/api/materials")
+@CrossOrigin(origins = "http://localhost:3000")
+public class MaterialController {
+    private final MaterialService service;
+
+    public MaterialController(MaterialService service) {
+        this.service = service;
+    }
+
+    @PostMapping("/upload")
+    public Material upload(@RequestBody Material material) {
+        return service.saveMaterial(material);
+    }
+
+    @GetMapping
+    public List<Material> getAll() {
+        return service.getAllMaterials();
+    }
+}

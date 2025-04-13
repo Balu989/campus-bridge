@@ -1,0 +1,53 @@
+package com.quantum.CampusBridgeApplication.controller;
+
+import org.springframework.http.*;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.client.RestTemplate;
+
+import java.util.*;
+
+@RestController
+@RequestMapping("/api/ai")
+@CrossOrigin(origins = "http://localhost:3000") // Adjust if needed
+public class AIController {
+
+    private final String HF_SPACE_URL = "https://hf.space/embed/mrm8488/t5-base-finetuned-wikiSQL/+/api/predict";
+
+    @PostMapping("/chat")
+    public ResponseEntity<Map<String, String>> chat(@RequestBody Map<String, String> payload) {
+        String prompt = payload.get("prompt");
+
+        if (prompt == null || prompt.trim().isEmpty()) {
+            return ResponseEntity.badRequest().body(Map.of("error", "Prompt cannot be empty."));
+        }
+
+        RestTemplate restTemplate = new RestTemplate();
+
+        // Hugging Face Spaces expect a "data" array
+        Map<String, Object> body = new HashMap<>();
+        body.put("data", List.of(prompt));
+
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.APPLICATION_JSON);
+
+        HttpEntity<Map<String, Object>> entity = new HttpEntity<>(body, headers);
+
+        try {
+            ResponseEntity<Map> response = restTemplate.exchange(
+                    HF_SPACE_URL,
+                    HttpMethod.POST,
+                    entity,
+                    Map.class
+            );
+
+            // Extract response
+            List<?> data = (List<?>) response.getBody().get("data");
+            String reply = data.get(0).toString();
+
+            return ResponseEntity.ok(Map.of("reply", reply));
+        } catch (Exception e) {
+            e.printStackTrace();
+            return ResponseEntity.status(500).body(Map.of("error", "❌ Failed to fetch AI response. Try again later."));
+        }
+    }
+}

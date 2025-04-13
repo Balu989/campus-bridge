@@ -1,0 +1,76 @@
+package com.quantum.CampusBridgeApplication.controller;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+
+@RestController
+@RequestMapping("/api/ai")
+@CrossOrigin(origins = "http://localhost:3000")
+public class AIController {
+
+    @Value("${huggingface.api.key}")
+    private String huggingFaceApiKey;
+
+    private final String HUGGINGFACE_URL = "https://api-inference.huggingface.co/models/facebook/bart-large-cnn";
+
+    @PostMapping("/chat")
+    public ResponseEntity<Map<String, String>> chat(@RequestBody Map<String, String> payload) {
+        String prompt = payload.get("prompt");
+
+        if (prompt == null || prompt.trim().isEmpty()) {
+            return ResponseEntity.badRequest().body(Map.of("error", "Prompt cannot be empty."));
+        }
+
+        RestTemplate restTemplate = new RestTemplate();
+
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.APPLICATION_JSON);
+        headers.setBearerAuth(huggingFaceApiKey);
+
+        Map<String, Object> requestBody = new HashMap<>();
+        requestBody.put("inputs", prompt);
+
+        HttpEntity<Map<String, Object>> entity = new HttpEntity<>(requestBody, headers);
+
+        try {
+            ResponseEntity<String> response = restTemplate.exchange(
+                    HUGGINGFACE_URL,
+                    HttpMethod.POST,
+                    entity,
+                    String.class
+            );
+
+            System.out.println("Raw Response: " + response.getBody());
+
+            JSONArray jsonArray = new JSONArray(response.getBody());
+            JSONObject jsonObject = jsonArray.getJSONObject(0);
+
+            String generatedText = jsonObject.optString("generated_text", null);
+
+            if (generatedText == null) {
+                return ResponseEntity.status(500).body(Map.of("error", "⚠️ No generated text found."));
+            }
+
+            return ResponseEntity.ok(Map.of("reply", generatedText));
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            return ResponseEntity.status(500).body(Map.of("error", "❌ Failed to fetch AI response."));
+        }
+    }
+}

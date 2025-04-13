@@ -1,0 +1,272 @@
+2025-04-12 11:16:59,534 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-04-12 11:17:28,278 [Worker-6: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.quantum:CampusBridgeApplication:0.0.1-SNAPSHOT @ C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\pom.xml.
+2025-04-12 11:17:29,660 [Worker-6: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CampusBridgeApplication/src/main/java
+2025-04-12 11:17:29,665 [Worker-6: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CampusBridgeApplication/src/main/resources
+2025-04-12 11:17:29,672 [Worker-6: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CampusBridgeApplication/src/main/resources
+2025-04-12 11:17:29,677 [Worker-6: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CampusBridgeApplication/src/test/java
+2025-04-12 11:17:29,679 [Worker-6: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CampusBridgeApplication/src/test/resources
+2025-04-12 11:17:30,480 [Worker-6: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 4 sec
+2025-04-12 11:17:32,801 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-12 11:17:32,834 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 11:17:32,855 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 11:19:30,023 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 11:19:30,025 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 11:19:30,029 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 11:20:12,466 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 11:20:12,469 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 11:20:12,473 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 11:20:25,181 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 11:20:25,184 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 11:20:25,189 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 11:20:56,888 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 11:20:56,890 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 11:20:56,895 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 11:21:05,686 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 11:21:05,688 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 11:21:05,746 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 11:21:33,645 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 11:21:33,646 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 11:21:33,650 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 11:22:02,925 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 11:22:02,926 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 11:22:02,932 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 11:22:17,395 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 11:22:17,397 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 11:22:17,400 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 11:22:34,602 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 11:22:34,604 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 11:22:34,607 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 11:23:00,651 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 11:23:00,653 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 11:23:00,657 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 11:23:17,887 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 11:23:17,889 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 11:23:17,893 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 12:50:51,034 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 12:50:51,036 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 12:50:51,042 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 13:05:27,420 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 13:05:27,421 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 13:05:27,423 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 13:06:18,921 [Worker-62: Launching CampusBridgeApplication] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.quantum:CampusBridgeApplication:0.0.1-SNAPSHOT @ C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\pom.xml.
+2025-04-12 13:06:19,628 [Worker-62: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-12 13:06:19,664 [Worker-62: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 13:06:19,671 [Worker-62: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 13:06:20,011 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-12 13:06:20,021 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 13:06:20,025 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 13:09:37,576 [Worker-67: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-12 13:09:37,585 [Worker-67: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 13:09:37,589 [Worker-67: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 13:17:09,238 [Worker-66: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-12 13:17:09,262 [Worker-66: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 13:17:09,265 [Worker-66: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 13:18:27,642 [Worker-63: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-12 13:18:27,653 [Worker-63: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 13:18:27,656 [Worker-63: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 13:25:00,136 [Worker-63: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-12 13:25:00,178 [Worker-63: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 13:25:00,185 [Worker-63: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 13:27:45,426 [Worker-72: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-12 13:27:45,434 [Worker-72: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 13:27:45,436 [Worker-72: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 14:49:43,990 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-04-12 21:20:30,040 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-12 21:20:30,091 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 21:20:30,098 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 21:20:58,932 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 21:20:58,934 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 21:20:58,938 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 21:21:18,935 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 21:21:18,938 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 21:21:18,944 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 21:21:43,437 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 21:21:43,438 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 21:21:43,442 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 21:22:09,429 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 21:22:09,430 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 21:22:09,434 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 21:22:53,125 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 21:22:53,127 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 21:22:53,131 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 21:23:35,991 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 21:23:35,992 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 21:23:35,995 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 21:23:58,966 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-12 21:23:58,973 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 21:23:58,977 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 21:24:13,657 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-12 21:24:13,685 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 21:24:13,694 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 21:24:29,058 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 21:24:29,059 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 21:24:29,063 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 21:24:40,749 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 21:24:40,750 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 21:24:40,753 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 21:25:00,610 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 21:25:00,645 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 21:25:00,649 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 21:25:32,851 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 21:25:32,852 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 21:25:32,855 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 21:26:08,417 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 21:26:08,418 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 21:26:08,422 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 22:32:17,002 [Worker-56: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-12 22:32:17,034 [Worker-56: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 22:32:17,037 [Worker-56: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 23:24:12,847 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 23:24:12,848 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 23:24:12,850 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 23:24:51,217 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 23:24:51,218 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 23:24:51,220 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 23:25:14,456 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 23:25:14,457 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 23:25:14,460 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 23:25:33,840 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 23:25:33,841 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 23:25:33,843 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 23:25:48,577 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 23:25:48,577 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 23:25:48,580 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 23:26:03,374 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 23:26:03,375 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 23:26:03,377 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 23:26:25,770 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 23:26:25,771 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 23:26:25,774 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 23:26:44,316 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 23:26:44,317 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 23:26:44,319 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 23:27:04,215 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 23:27:04,216 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 23:27:04,219 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 23:27:27,025 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 23:27:27,026 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 23:27:27,028 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 23:27:43,527 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 23:27:43,528 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 23:27:43,530 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 23:28:03,325 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 23:28:03,326 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 23:28:03,328 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 23:49:08,321 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 23:49:08,322 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 23:49:08,324 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 23:52:08,891 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 23:52:08,892 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 23:52:08,894 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 23:52:36,006 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 23:52:36,007 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 23:52:36,010 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-12 23:55:14,941 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 23:55:14,942 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-12 23:55:14,945 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-13 00:15:49,732 [Worker-51: Launching CampusBridgeApplication] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.quantum:CampusBridgeApplication:0.0.1-SNAPSHOT @ C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\pom.xml.
+2025-04-13 00:15:50,530 [Worker-51: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-13 00:15:50,561 [Worker-51: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-13 00:15:50,568 [Worker-51: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-13 00:35:34,468 [Worker-70: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-13 00:35:34,475 [Worker-70: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-13 00:35:34,478 [Worker-70: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-13 00:38:23,328 [Worker-44: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-13 00:38:23,335 [Worker-44: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-13 00:38:23,339 [Worker-44: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-13 00:58:47,568 [Worker-44: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-13 00:58:47,577 [Worker-44: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-13 00:58:47,579 [Worker-44: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-13 01:07:28,012 [Worker-74: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-13 01:07:28,020 [Worker-74: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-13 01:07:28,025 [Worker-74: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-13 01:24:13,195 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-04-13 01:39:04,688 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-13 01:39:04,707 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-13 01:39:04,712 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-13 01:46:31,638 [Worker-3: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-13 01:46:31,645 [Worker-3: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-13 01:46:31,648 [Worker-3: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-13 01:50:29,708 [Worker-23: Launching CampusBridgeApplication] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.quantum:CampusBridgeApplication:0.0.1-SNAPSHOT @ C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\pom.xml.
+2025-04-13 01:50:30,320 [Worker-23: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-13 01:50:30,337 [Worker-23: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-13 01:50:30,344 [Worker-23: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-13 01:50:30,866 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-13 01:50:30,879 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-13 01:50:30,883 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-13 02:52:23,417 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-04-13 03:27:31,076 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-13 03:27:31,116 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-13 03:27:31,124 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-13 03:34:22,201 [Worker-18: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-13 03:34:22,220 [Worker-18: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-13 03:34:22,224 [Worker-18: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-13 03:36:25,318 [Worker-35: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-13 03:36:25,329 [Worker-35: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-13 03:36:25,334 [Worker-35: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-13 03:48:49,624 [Worker-11: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-13 03:48:49,634 [Worker-11: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-13 03:48:49,639 [Worker-11: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-13 03:59:03,888 [Worker-13: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-13 03:59:03,899 [Worker-13: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-13 03:59:03,904 [Worker-13: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-13 04:17:04,597 [Worker-11: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-13 04:17:04,613 [Worker-11: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-13 04:17:04,620 [Worker-11: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-13 04:21:45,870 [Worker-2: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-13 04:21:45,882 [Worker-2: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-13 04:21:45,915 [Worker-2: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-13 04:31:02,928 [Worker-11: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-13 04:31:02,939 [Worker-11: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-13 04:31:02,942 [Worker-11: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-13 04:34:48,064 [Worker-18: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-13 04:34:48,075 [Worker-18: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-13 04:34:48,078 [Worker-18: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-13 04:38:14,767 [Worker-22: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-13 04:38:14,779 [Worker-22: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-13 04:38:14,782 [Worker-22: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-13 04:42:34,922 [Worker-13: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-13 04:42:34,931 [Worker-13: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-13 04:42:34,936 [Worker-13: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-13 05:04:16,775 [Worker-25: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-13 05:04:16,787 [Worker-25: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-13 05:04:16,791 [Worker-25: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-13 05:19:50,470 [Worker-17: Launching CampusBridgeApplication] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.quantum:CampusBridgeApplication:0.0.1-SNAPSHOT @ C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\pom.xml.
+2025-04-13 05:19:50,827 [Worker-17: Launching CampusBridgeApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/json/json/20240303/json-20240303.pom
+2025-04-13 05:19:50,841 [Worker-17: Launching CampusBridgeApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/json/json/20240303/json-20240303.pom
+2025-04-13 05:19:51,157 [Worker-17: Launching CampusBridgeApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/json/json/20240303/json-20240303.jar
+2025-04-13 05:19:51,194 [Worker-17: Launching CampusBridgeApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/json/json/20240303/json-20240303.jar
+2025-04-13 05:19:51,490 [Worker-17: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-13 05:19:51,531 [Worker-17: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-13 05:19:51,542 [Worker-17: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-13 05:19:52,164 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-13 05:19:52,175 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-13 05:19:52,179 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-13 05:19:52,385 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/json/json/20240303/json-20240303-sources.jar
+2025-04-13 05:19:52,419 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/json/json/20240303/json-20240303-sources.jar
+2025-04-13 05:19:52,422 [Worker-18: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.json:json:20240303
+2025-04-13 05:22:41,540 [Worker-17: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-13 05:22:41,549 [Worker-17: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-13 05:22:41,552 [Worker-17: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-13 05:26:57,943 [Worker-25: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-13 05:26:57,952 [Worker-25: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-13 05:26:57,955 [Worker-25: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-13 05:30:20,856 [Worker-11: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-13 05:30:20,865 [Worker-11: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-13 05:30:20,868 [Worker-11: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-13 05:33:14,129 [Worker-24: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-13 05:33:14,137 [Worker-24: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-13 05:33:14,140 [Worker-24: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-13 05:39:28,908 [Worker-25: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-13 05:39:28,916 [Worker-25: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-13 05:39:28,918 [Worker-25: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-13 06:11:10,167 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-13 06:11:10,176 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-13 06:11:10,180 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-13 06:11:42,025 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-04-13 06:14:56,401 [Worker-4: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-13 06:14:56,421 [Worker-4: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-13 06:14:56,427 [Worker-4: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources
+2025-04-13 06:19:34,710 [Worker-13: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-13 06:19:34,718 [Worker-13: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-13 06:19:34,722 [Worker-13: Launching CampusBridgeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tb266\Quantam-Crew\CampusBridgeApplication\CampusBridgeApplication\src\test\resources

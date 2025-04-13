@@ -1,0 +1,39 @@
+package com.quantum.CampusBridgeApplication.controller;
+
+import com.quantum.CampusBridgeApplication.dto.AuthRequest;
+import com.quantum.CampusBridgeApplication.dto.AuthResponse;
+import com.quantum.CampusBridgeApplication.model.User;
+import com.quantum.CampusBridgeApplication.service.AuthService;
+import com.quantum.CampusBridgeApplication.security.JwtUtil;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+@RequestMapping("/api/auth")
+@CrossOrigin(origins = "*")
+public class AuthController {
+
+    @Autowired
+    private AuthService authService;
+
+    @Autowired
+    private JwtUtil jwtUtil;
+
+    @PostMapping("/register")
+    public ResponseEntity<?> register(@RequestBody User user) {
+        try {
+            User savedUser = authService.registerUser(user);
+            return ResponseEntity.ok(savedUser);
+        } catch (RuntimeException e) {
+            return ResponseEntity.badRequest().body(e.getMessage());
+        }
+    }
+
+    @PostMapping("/login")
+    public ResponseEntity<?> login(@RequestBody AuthRequest request) {
+        User user = authService.authenticate(request.getEmail(), request.getPassword());
+        String token = jwtUtil.generateToken(user);
+        return ResponseEntity.ok(new AuthResponse(token, user.getEmail(), user.getName(), user.getRole().name()));
+    }
+}

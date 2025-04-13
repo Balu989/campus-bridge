@@ -1,0 +1,50 @@
+package com.quantum.CampusBridgeApplication.onlineCompiler;
+
+import org.springframework.web.bind.annotation.*;
+import org.springframework.http.ResponseEntity;
+
+import java.io.*;
+
+@RestController
+@CrossOrigin(origins = "*")
+public class JavaCompilerController {
+
+    @PostMapping("/compile")
+    public ResponseEntity<String> compileAndRun(@RequestBody String code) {
+        try {
+            String filename = "Main.java";
+            FileWriter writer = new FileWriter(filename);
+            writer.write(code);
+            writer.close();
+
+            // Compile the code
+            Process compile = Runtime.getRuntime().exec("javac Main.java");
+            compile.waitFor();
+
+            if (compile.exitValue() != 0) {
+                return ResponseEntity.ok(getOutput(compile.getErrorStream()));
+            }
+
+            // Run the code
+            Process run = Runtime.getRuntime().exec("java Main");
+            run.waitFor();
+
+            String output = getOutput(run.getInputStream());
+            String error = getOutput(run.getErrorStream());
+
+            return ResponseEntity.ok(output + (error.isEmpty() ? "" : "\nErrors:\n" + error));
+
+        } catch (Exception e) {
+            return ResponseEntity.status(500).body("Server Error: " + e.getMessage());
+        }
+    }
+
+    private String getOutput(InputStream stream) throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(stream));
+        StringBuilder result = new StringBuilder();
+        String line;
+        while ((line = reader.readLine()) != null)
+            result.append(line).append("\n");
+        return result.toString();
+    }
+}

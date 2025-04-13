@@ -1,0 +1,81 @@
+package com.quantum.CampusBridgeApplication.onlineCompiler;
+
+import org.springframework.web.bind.annotation.*;
+import org.springframework.http.ResponseEntity;
+
+import java.io.*;
+
+@RestController
+@CrossOrigin(origins = "*")
+public class JavaCompilerController {
+
+    @PostMapping("/compile2")
+    public ResponseEntity<String> compileAndRun(@RequestParam String lang, @RequestBody String code) {
+        try {
+            String fileName;
+            String compileCommand = null;
+            String runCommand;
+
+            switch (lang.toLowerCase()) {
+                case "java":
+                    fileName = "Main.java";
+                    compileCommand = "javac Main.java";
+                    runCommand = "java Main";
+                    break;
+                case "c":
+                    fileName = "main.c";
+                    compileCommand = "gcc main.c -o main";
+                    runCommand = "./main";
+                    break;
+                case "cpp":
+                    fileName = "main.cpp";
+                    compileCommand = "g++ main.cpp -o main";
+                    runCommand = "./main";
+                    break;
+                case "python":
+                    fileName = "main.py";
+                    runCommand = "python3 main.py";
+                    break;
+                default:
+                    return ResponseEntity.badRequest().body("Unsupported language: " + lang);
+            }
+
+            // Write the code to a file
+            FileWriter writer = new FileWriter(fileName);
+            writer.write(code);
+            writer.close();
+
+            // Compile if needed
+            if (compileCommand != null) {
+                Process compile = Runtime.getRuntime().exec(compileCommand);
+                compile.waitFor();
+
+                if (compile.exitValue() != 0) {
+                    return ResponseEntity.ok("Compilation Error:\n" + getOutput(compile.getErrorStream()));
+                }
+            }
+
+            // Execute the code
+            Process run = Runtime.getRuntime().exec(runCommand);
+            run.waitFor();
+
+            String output = getOutput(run.getInputStream());
+            String error = getOutput(run.getErrorStream());
+
+            return ResponseEntity.ok(output + (error.isEmpty() ? "" : "\nErrors:\n" + error));
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            return ResponseEntity.status(500).body("Server Error: " + e.getMessage());
+        }
+    }
+
+    private String getOutput(InputStream stream) throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(stream));
+        StringBuilder result = new StringBuilder();
+        String line;
+        while ((line = reader.readLine()) != null)
+            result.append(line).append("\n");
+        return result.toString();
+    }
+}

@@ -1,0 +1,61 @@
+package com.quantum.CampusBridgeApplication.controller;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.http.*;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.client.RestTemplate;
+
+import java.util.*;
+
+@RestController
+@RequestMapping("/api/ai")
+@CrossOrigin(origins = "http://localhost:3000")
+public class AIController {
+
+    @Value("${huggingface.api.key}")
+    private String huggingFaceApiKey;
+
+    private final String HUGGINGFACE_URL = "https://api-inference.huggingface.co/models/facebook/bart-large-cnn";
+
+    @PostMapping("/chat")
+    public ResponseEntity<Map<String, String>> chat(@RequestBody Map<String, String> payload) {
+        String prompt = payload.get("prompt");
+
+        if (prompt == null || prompt.trim().isEmpty()) {
+            return ResponseEntity.badRequest().body(Map.of("error", "Prompt cannot be empty."));
+        }
+
+        RestTemplate restTemplate = new RestTemplate();
+
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.APPLICATION_JSON);
+        headers.setBearerAuth(huggingFaceApiKey);
+
+        Map<String, String> body = new HashMap<>();
+        body.put("inputs", prompt);
+
+        HttpEntity<Map<String, String>> entity = new HttpEntity<>(body, headers);
+
+        try {
+            ResponseEntity<List> response = restTemplate.exchange(
+                    HUGGINGFACE_URL,
+                    HttpMethod.POST,
+                    entity,
+                    List.class
+            );
+
+            if (response.getBody() == null || response.getBody().isEmpty()) {
+                return ResponseEntity.status(500).body(Map.of("error", "No response from Hugging Face."));
+            }
+
+            // Extract summary_text from response
+            Map<String, Object> output = (Map<String, Object>) response.getBody().get(0);
+            String summary = (String) output.get("summary_text");
+
+            return ResponseEntity.ok(Map.of("reply", summary));
+
+        } catch (Exception e) {
+            return ResponseEntity.status(500).body(Map.of("error", "❌ Failed to fetch AI response. Try again later."));
+        }
+    }
+}
