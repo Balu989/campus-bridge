@@ -1,7 +1,28 @@
-🚀 Campus Bridge – Unified LMS + Coding Skill Development Platform
+Project Title - Campus-Bridge
 
-🔍Overview-
-Campus Bridge is a full-stack web application that integrates academic course management and hands-on coding practice in one unified platform. Designed to streamline university-level learning and technical skill development, the platform brings together LMS features, an online code editor, group code collaboration, AI-based assistance, and performance analytics.
+Selected Domain - Web Development
+
+Problem Statement - “Campus Bridge – Integrated Academic LMS + Coding
+Skill Development Platform”
+
+Abstract -
+Campus Bridge is an integrated web-based platform aimed at enhancing both academic engagement and coding skill development for university students. This project combines key functionalities of a Learning Management System (LMS) with coding practice tools and AI-powered assistance to create a unified digital learning environment.
+
+The platform includes a fully functional LMS module that allows students to view academic courses, access lecture materials, track attendance, and manage assignments. A secure login and registration system with role-based authentication has been implemented to support students, faculty, and admins.
+
+A built-in online code editor with support for multiple programming languages (C, C++, Python, Java) has been developed, enabling students to practice coding problems in real-time. Students can also join Live Group Code Rooms, which allow collaborative coding and pair programming experiences.
+
+The platform features a powerful AI Assistant integrated using large language models (e.g., Gemini/GPT), providing:
+
+Real-time code hints and logic debugging help
+
+Smart Code Review Bot for code quality, naming conventions, and best practices
+
+Additionally, a performance analytics dashboard is available to track individual progress through skill heatmaps, badges, and weekly coding streaks.
+
+The application is built using React.js, TailwindCSS, and Material UI for the frontend, with Spring Boot and MySQL powering the backend.
+
+With its modular and scalable architecture, Campus Bridge lays the foundation for a future-ready academic and coding development ecosystem tailored to the needs of modern students.
 
 🛠️Tech Stack-
 Layer		: Technology Used
@@ -10,6 +31,10 @@ Backend		: Spring Boot (Java)
 Database	: MySQL
 Authentication	: Spring Security + JWT (JSON Web Tokens)
 AI Assistant	: GPT Integration (API-based or prompt-engineered simulations)
+
+🔍Overview-
+Campus Bridge is a full-stack web application that integrates academic course management and hands-on coding practice in one unified platform. Designed to streamline university-level learning and technical skill development, the platform brings together LMS features, an online code editor, group code collaboration, AI-based assistance, and performance analytics.
+
 
 📁 Folder Structure
 plaintext
